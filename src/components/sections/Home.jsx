@@ -8,7 +8,7 @@ export const Home = () => {
                     Hello, I'm <br/>Dannayak Naga Jahnavi
                 </h1>
                 <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, vel? Quam assumenda, eveniet in nesciunt magnam dolor officia esse. Asperiores eius ratione deleniti consequuntur ipsam reiciendis deserunt saepe possimus iste? 
+                Welcome! I’m a passionate and driven Computer Science sophomore eager to explore the ever-evolving world of technology. I thrive on challenges, continuously seek innovation, and enjoy experimenting with new ideas. Whether it’s coding, problem-solving, or diving into emerging tech, I’m always looking for opportunities to learn, collaborate, and grow. Excited to connect and contribute! 
                 </p>
                 <div className="flex justify-center space-x-4">
                     <a href="#projects" className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]">
