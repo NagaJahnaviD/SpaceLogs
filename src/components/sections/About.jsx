@@ -2,9 +2,9 @@ import {RevealOnScroll} from '../RevealOnScroll'
 export const About =()=>{
 
     const frontendSkills=["ReactJS","JavaScript","TailwindCSS","Bootstrap","HTML"];
-    const backendSkills=["Node.Js","MongoDB","SQL","MySQL","Express.Js","REST API","Postman API"];
-    const tool=["Git","Github","Tableau","VS code","Eclipse","R Studio"];
-    const languages=["C","C++","JaxaScript","Python","Java","R (beginner)"];
+    const backendSkills=["Node.Js","MongoDB","SQL","MySQL","Express.Js","REST API","Postman API","SocketIO"];
+    const tool=["Git","Github","Tableau","VS code","Eclipse","R Studio","Docker","MS Office","Clerk"];
+    const languages=["C","C++","JaxaScript","Python","Java","R "];
     
 
 
@@ -81,24 +81,49 @@ export const About =()=>{
                                     <strong>B Tech- Computer Science and Engineering</strong> -VNR Vignanajyothi Institute of Engineering and Technology - (2023-2027)
                                 </li>
                                 <li>
-                                    Relavent Coursework: Data Structures, Web Application Development, Object Oriented Programming through java, Desaign and analysis of algorithms
+                                    Relavent Coursework: Data Structures, Web Application Development, Object Oriented Programming through java, Design and analysis of algorithms
                                 </li>
                                 
                             </ul>
                     </div>
-                    {/* <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-                            <h3 className="text-xl font-bold mb-4">Link to Resume</h3>
-                            <div className="space-y-4 text-gray-300">
-                                <div>
-                                    <h4 className="font-semibold">Lorem ipsum dolor sit amet.</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, nesciunt?</p>
-                                </div>
-                                <div>
-                                    <h4 className="font-semibold">Lorem ipsum dolor sit amet.</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, nesciunt?</p>
-                                </div>
-                            </div>
-                    </div> */}
+                    <div className="grid grid-cols-1 md:grid-cols-1 gap-6 mt-8">
+    <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+        <h3 className="text-xl font-bold mb-4">Achievements and Awards</h3>
+        <ul className="list-disc list-inside text-gray-300 space-y-2">
+            <li><strong>Gold Medalist</strong> (VNR VJIET) – Highest CGPA among all first-year students across branches</li>
+            <li><strong>Finalist</strong> (Top 10%) – CodeNox 2k24 by Turing Hut</li>
+            <li><strong>2nd Place</strong> – Solution Sprint-2024 Hackathon by ISTE, VNR VJIET</li>
+            <li><strong>1st Place</strong> – Oratory Olympics 2024 by Toastmasters, VNR VJIET</li>
+            <li>Solved <strong>140+ DSA problems</strong> on LeetCode</li>
+            <li><strong>Member</strong> – Turing Hut (selected from 300+ applicants)</li>
+            <li><strong>13th Rank</strong> – Top100Coders (1500+ participants)</li>
+            <li><strong>HackerRank:</strong> 5⭐ in Problem Solving, 4⭐ in C</li>
+            <li><strong>3rd Rank</strong> – Internal coding assessment by Smart Interviews (600+ students)</li>
+        </ul>
+    </div>
+
+    <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+        <h3 className="text-xl font-bold mb-4">Online Certifications</h3>
+        <ul className="list-disc list-inside text-gray-300 space-y-2">
+            <li>Google AI Essentials – Coursera</li>
+            <li>Postman API Fundamentals Student Expert</li>
+            <li>Programming Fundamentals using Python – Infosys Springboard</li>
+            <li>Microsoft Cyber Suraksha Course</li>
+            <li>Tableau for Data Analysis and Data Science – Udemy</li>
+        </ul>
+    </div>
+
+    <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+        <h3 className="text-xl font-bold mb-4">Extracurricular Activities</h3>
+        <ul className="list-disc list-inside text-gray-300 space-y-2">
+            <li>Contributed to <strong>HacktoberFest 2024</strong> – Gained open-source experience</li>
+            <li><strong>Volunteer</strong> – ISTE, VNR VJIET (selected from 100+ candidates)</li>
+            <li><strong>Volunteer</strong> – CSI, VNR VJIET (selected from 250+ candidates)</li>
+            <li><strong>Member</strong> – Stentorian (literary club) selected from 300+ applicants</li>
+        </ul>
+    </div>
+</div>
+
             </div>
         </div>
         </RevealOnScroll>
