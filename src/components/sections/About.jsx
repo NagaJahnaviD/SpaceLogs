@@ -10,7 +10,7 @@ export const About = () => {
           </h2>
 
           <p className="text-center mb-12 text-sm text-gray-400 italic">
-            > decoding the universe, one log at a time...
+             decoding the universe, one log at a time...
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
