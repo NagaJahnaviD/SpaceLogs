@@ -74,24 +74,6 @@ Install Command: npm install
 
 Deploy
 
-##📁 Project Structure
-src/
-├── components/
-│   ├── Navbar.jsx
-│   ├── HeroOverlay.jsx
-│   ├── MobileMenu.jsx
-│   ├── LoadingScreen.jsx
-│   ├── RevealOnScroll.jsx
-│   └── sections/
-│       ├── About.jsx
-│       ├── Projects.jsx
-│       ├── Contact.jsx
-│       └── Sponsors.jsx
-├── assets/
-│   └── media/ (images, videos)
-├── App.jsx
-└── main.jsx
-
 some output images
 ![image](https://github.com/user-attachments/assets/4d5b5490-1902-4fc5-9636-c7d439bdaffd)
 ![image](https://github.com/user-attachments/assets/f42ef95d-bed2-412a-8fe2-e44c7d221c1c)
