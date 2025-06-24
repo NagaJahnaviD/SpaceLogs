@@ -18,6 +18,7 @@ function App() {
 
   return (
     <>
+      <div className="bg-black">
       {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true)} />}
       <div
         className={`min-h-screen transition-opacity duration-700 ${
@@ -56,6 +57,7 @@ function App() {
           <Contact />
           <Sponsors />
         </div>
+      </div>
       </div>
     </>
   );
